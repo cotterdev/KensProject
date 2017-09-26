@@ -1,3 +1,11 @@
+//Author: Toby Cotter
+//Description:  This code lights up the leds banks as a pot turns
+//
+//Pot pin2:  Middle connected to A0
+//Pot pin3:  Connected to +5v
+//Pot pin1:  Connected to gnd
+  
+
 int ledPins[] = {2,3,4,5,6,7};  //pin number leds are attached to
 int ledCount = 6;
 int sensorReading[5];
